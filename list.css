@@ -1,0 +1,792 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F6F8FF;
+}
+
+nav {
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+nav img{
+    width: 100px;
+    height: 65px;
+}
+
+nav h2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    margin-top: 17px;
+}
+
+#join {
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: rgba(0, 0, 0, 0.292);
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 60%;
+    margin-right: 15px;
+    margin-top: 14px;
+}
+
+#sign {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #E50914;
+    color: white;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+p {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#main {
+    width: 100%;
+    height: 600px;
+    column-count: 2;
+
+}
+
+#main h2 {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    font-style: normal;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#main img {
+    width: 850px;
+    height: 500px;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.card {
+    margin-left: 250px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #B3B3BD;
+    border-radius: 5px;
+    list-style-type: none;
+    border-top: 5px solid #E50914;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+.card h4 {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-style: normal;
+    padding: 20px 20px;
+}
+
+.card li {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 1rem;
+}
+
+p {
+    width: 850px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+span {
+    color: red;
+}
+
+hr {
+    margin-top: 50px;
+    width: 980px;
+    margin-left: 30px;
+    border: 1px solid gray;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-style: normal;
+    color: black;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+img {
+    width: 850px;
+    height: 500px;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.end {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.end a {
+    margin-left: 20px;
+    color: black;
+}
+
+.end h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-style: normal;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    height: 390px;
+    background-color: black;
+    margin-top: 70px;
+}
+
+#foot {
+    display: flex;
+}
+
+#foot h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-style: normal;
+    color: white;
+    margin-left: 30px;
+}
+
+footer input {
+    width: 150px;
+    height: 35px;
+    margin-top: 45px;
+    margin-left: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+footer hr {
+    width: 97%;
+    border: 1px solid gray;
+}
+#drop{
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: black;
+    color: gray;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+a li{
+    margin-left: 30px;
+    margin-top: 15px;
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    font-style: normal;
+    color: #B3B0AD;
+}
+/* help.html */
+.navhelp {
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    display: flex;
+}
+
+.navhelp img{
+    width: 100px;
+    height: 65px;
+}
+
+.navhelp h2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+    margin-top: 17px;
+}
+
+.navhelp #join {
+    width: 100px;
+    height: 40px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 60%;
+    margin-right: 15px;
+    margin-top: 14px;
+}
+
+.navhelp #sign {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #E50914;
+    color: white;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+#h1 h1{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 750;
+    font-style: normal;
+    font-size: 2rem;
+    margin-top: 120px; 
+}
+#h1 input{
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #E50914;
+    box-shadow: 1px 1px 5px #E50914;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+#h1 p{
+    margin-left: 30%;
+    color: gray;
+}
+#arrow{
+    margin-top: 150px;
+    margin-left: 40%;
+    margin-bottom: 70px;
+}
+.hpbox{
+    width: 500px;
+    height: 200px;
+    border: 1px solid #B3B3BD;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+.hpbox h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    font-style: normal;
+    margin-left: 30px;
+}
+.hpbox hr{
+    width: 470px;
+    margin: 17px;
+    border: 1px solid #B3B3BD; 
+}
+.hpbox h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 540;
+    font-size: 1.1rem;
+    font-style: normal;
+    margin-left: 20px;
+    position: relative;
+}
+.hpbox i{
+    color: #E50914;
+}
+.hpbox h3 i{
+    position: absolute;
+    right: 40px;
+}
+.quick{
+    margin-left: 30%;
+    width: 500px;
+
+}
+.quick h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-style: normal;
+}
+.quick a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 540;
+    font-size: 1.1rem;
+    font-style: normal;
+    color: black;
+    margin-left: 17px;
+}
+.quick hr{
+    width: 500px;
+    margin: 17px;
+    border: 1px solid #B3B3BD;
+}
+/* -------------------------------------------------- */
+/* jobs.html */
+
+.job-nav{
+    width: 100%;
+    height: 450px;
+    background-image: url(./image/office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 10px 30px #B3B3BD;
+    position: relative;
+}
+
+.job-nav h2{
+    margin-top: 30px;
+}
+.job-li li{
+    margin-right: 80px;
+    margin-top: 30px;
+    color: white;
+    font-size: 14px;
+}
+
+.job-li{
+    display: flex;
+    list-style-type: none;
+    margin-left: 110px;
+    
+}
+.job-li .drop{
+    background-color:rgba(135, 207, 235, 0);
+    border: none;
+    color: white;
+   font-weight: 700;
+}
+.job-nav .center h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: white;
+   position: absolute;
+   right: 300px;
+   top: 150px;
+   left: 70px;
+
+}
+.center input{
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    width: 500px;
+    height: 80px;
+    padding: 20px;
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.877);
+}
+h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+.box1{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px black;
+    align-items: center;
+    margin-left: 60px;
+    padding: 30px;
+}
+.job1{
+    width: 500px;
+
+}
+.job1 h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.job1 p{
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+    width: 450px;
+    line-height: 1.7rem;
+}
+.job1 input{
+    width: 250px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: #E50914;
+    color: white;
+    border: none;
+}
+.box1 img{
+    width: 600px;
+    height: 300px;
+    margin-left: 150px;
+    border-left: 30px solid #E50914;
+}
+.box2 img{
+    width: 600px;
+    height: 300px;
+    border-left: 30px solid #E50914;
+    
+}
+.job2 input{
+    width: 250px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: #E50914;
+    color: white;
+    border: none;
+    
+}
+.box2{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px black;
+    align-items: center;
+    margin-left: 60px;
+    padding: 30px;
+}
+.job2{
+    width: 700px;
+    height: 300px;
+}
+.job2 h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    margin-left: 30px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+
+}
+.job2 p{
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+    width: 450px;
+    line-height: 1.7rem;
+}
+.Card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.c1{
+    width: 450px;
+    height: 700px;
+    background-color: white;
+    box-shadow: 2px 2px 10px #B3B3BD;
+    padding: 20px;
+    margin-top: 80px;
+}
+.c1 h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.c1 p{
+    font-size: 15px;
+    width: 320px;
+    line-height: 2rem;
+}
+.c1 input{
+    width: 200px;
+    height: 35px;
+    margin-top: 40px;
+    margin-left: 30px;
+    background-color: #E50914;
+    color: white;
+    border: none;
+}
+
+.c2{
+    width: 450px;
+    height: 700px;
+    box-shadow: 2px 2px 10px #B3B3BD;
+    background-color: white;
+    margin-top: 80px;
+    padding: 30px;
+}
+.c2 h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.c2 img{
+    width: 250px;
+    height: 350px;
+}
+.c2 h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.c2 input{
+    width: 200px;
+    height: 35px;
+    margin-top: 40px;
+    margin-left: 30px;
+    background-color: #E50914;
+    color: white;
+    border: none;
+}
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+}
+.footer img{
+    width: 80px;
+    height: 80px;
+}
+.footer h3{
+    color: black;
+    margin-top: 40px;
+    font-family: "Lato", sans-serif;
+    font-weight: 650;
+}
+.footer i{
+    margin-left: 30px;
+}
+.footer p{
+    margin-top: 60px;
+    font-family: "Lato", sans-serif;
+    margin-left: 100px;
+    font-weight:600;
+    font-size: 1rem;
+}
+.i-tag{
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    margin-left: 50%;
+}
+/* ------------------------------------------------------------------------------------------------ */
+/* way.html */
+
+.nav-way {
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    display: flex;
+}
+
+.nav-way img{
+    width: 100px;
+    height: 65px;
+}
+
+.nav-way h2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    margin-top: 17px;
+}
+
+.nav-way #join {
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 60%;
+    margin-right: 15px;
+    margin-top: 14px;
+}
+
+.nav-way #sign {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #E50914;
+    color: white;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.tv{
+    display: flex;
+    padding: 30px;
+}
+.TV{
+    width: 600px;
+}
+.TV h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.3rem;
+}
+.TV h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.TV li{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    color: red;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.art-card{
+    margin-left: 300px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #B3B3BD;
+    border-radius: 5px;
+    list-style-type: none;
+    border-top: 5px solid #E50914;
+    line-height: 30px;
+    padding: 0 10px;
+}
+.art-card h4 {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-style: normal;
+    padding: 20px 20px;
+}
+
+.art-card li {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 1rem;
+}
+.term h1{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.term p{
+    width: 1300px;
+    text-align: justify;
+    line-height: 2rem;
+}
+/* corp.html */
+.CORP{
+    display: flex;
+}
+.corp-card{
+    margin-top: 120px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #B3B3BD;
+    border-radius: 5px;
+    list-style-type: none;
+    border-top: 5px solid #E50914;
+    line-height: 30px;
+    padding: 0 10px;
+}
+.corp-card h4 {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-style: normal;
+    padding: 20px 20px;
+}
+
+.corp-card li {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 1rem;
+}
+.corp h3,h4,h1{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#corp-drop {
+    display: flex;
+    border: 1px solid #B3B3BD;
+    width: 200px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+.corp a{
+    color: black;
+    margin-left: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 350;
+}
